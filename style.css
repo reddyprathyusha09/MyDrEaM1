@@ -10,7 +10,10 @@ a {
   color: #ff4a17;
   text-decoration: none;
 }
-
+@media(max-width:425){
+    .img-fluid {
+      max-width: 100px;
+  }
 a:hover {
   color: #ff724a;
   text-decoration: none;
